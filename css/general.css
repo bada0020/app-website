@@ -76,7 +76,7 @@ h1{
 }
 
 .video img {
-	margin: 45px auto 0 auto; 
+	margin: 45px auto 30px auto; 
 	vertical-align: bottom;
 	width: 350px;
 
@@ -93,7 +93,6 @@ header {
 }
 
 }
-
 
 /* Buy Button
 -------------------------------------------------- */	
@@ -130,7 +129,7 @@ width: 186px;
 }
 .section {
 	display: block;
-	padding: 120px 0px;
+	padding:20px;
 }
 
 .bucket {
@@ -158,7 +157,11 @@ width: 186px;
 		}
 }
 
-
-
+footer{
+	font-family:"Arial Rounded MT Bold";
+	letter-spacing:1px;
+	color: e17659;
+	text-align:center;
+}
 
 
