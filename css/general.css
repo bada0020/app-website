@@ -1,0 +1,128 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+
+/* GENERAL
+-------------------------------------------------- */
+html {
+	min-width: 240px;
+	width: 100%;
+}
+
+body {
+	font-family:'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+	background: #bae3e4 url(../img/bg.png);
+}
+	
+img {
+	display: block;
+	width: 100%;
+}
+
+
+/* Navigation 	
+-------------------------------------------------- */	
+
+.nav {
+	position: relative;
+	margin: 20px 0;
+
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+	
+}
+.nav li {
+	margin: 0 5px 10px 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+.nav a {
+	padding: 3px 12px;
+	text-decoration: none;
+	color: #fff;
+	line-height: 100%;
+}
+.nav a:hover {
+	color: #e17659;
+}
+
+.nav .current a {
+	background: #999;
+	color: #fff;
+	border-radius: 5px;
+}
+
+/* VIDEO
+-------------------------------------------------- */	
+.video {
+	min-height: 180px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.video img {
+	margin: 45px auto 0 auto; 
+	vertical-align: bottom;
+	width: 350px;
+
+}
+
+@media only screen and (min-width: 37.5em) {
+
+header {
+	vertical-align: top;
+	}
+
+.logo img {
+	width: 500px;
+}
+
+}
+
+
+/* Buy Button
+-------------------------------------------------- */	
+#buy-btn{
+background: #e17659;
+border-radius: 100px;
+color: #fff;
+display: block;
+font-family: "Arial Rounded MT Bold";
+font-size: 12px;
+letter-spacing: 1px;
+line-height: 18px;
+margin: auto;
+margin-top: 20px;
+padding: 8px 0px 7px 0px;
+text-align: center;
+text-transform: uppercase;
+width: 186px;
+}
+
+#buy-btn:hover {
+  background: #f4cb62;
+  text-decoration: none;
+}
+
+/* White Section
+-------------------------------------------------- */	
+.section.white {
+	margin:60px auto;
+	background: #fff;
+	color: #2f3238;
+}
+.section {
+	display: block;
+	padding: 120px 0px;
+}
+
+
+
