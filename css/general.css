@@ -31,6 +31,15 @@ h1{
 }
 
 
+.logo {
+        width: 14rem;
+        margin: 0 auto;
+        position: relative;
+        display: block;
+        z-index: 100;
+}
+
+
 /* Navigation 	
 -------------------------------------------------- */	
 
@@ -38,6 +47,7 @@ h1{
 	font-size:18px;
 	position: relative;
 	margin: 20px 0;
+	text-align:center;
 
 }
 .nav ul {
@@ -91,6 +101,9 @@ header {
 .logo img {
 	width: 500px;
 }
+
+.nav{
+	text-align:left;
 
 }
 
@@ -159,7 +172,7 @@ width: 186px;
 
 footer{
 	font-family:"Arial Rounded MT Bold";
-	letter-spacing:1px;
+	letter-spacing:2px;
 	color: e17659;
 	text-align:center;
 }
