@@ -30,23 +30,12 @@ h1{
 	padding:10px 0 0 0;
 }
 
-
-.logo {
-        width: 14rem;
-        margin: 0 auto;
-        position: relative;
-        display: block;
-}
-
-
 /* Navigation 	
 -------------------------------------------------- */	
 
 .nav {
-	font-size:18px;
 	position: relative;
 	margin: 20px 0;
-	text-align:center;
 
 }
 .nav ul {
@@ -85,7 +74,7 @@ h1{
 }
 
 .video img {
-	margin: 45px auto 30px auto; 
+	margin: 45px auto 0 auto; 
 	vertical-align: bottom;
 	width: 350px;
 
@@ -101,10 +90,8 @@ header {
 	width: 500px;
 }
 
-.nav{
-	text-align:left;
-
 }
+
 
 /* Buy Button
 -------------------------------------------------- */	
@@ -129,9 +116,6 @@ width: 186px;
   background: #f4cb62;
   text-decoration: none;
 }
-
-
-
 /* White Section
 -------------------------------------------------- */	
 .section.white {
@@ -175,5 +159,8 @@ footer{
 	color: e17659;
 	text-align:center;
 }
+
+
+
 
 
