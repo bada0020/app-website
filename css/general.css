@@ -44,17 +44,20 @@ h1{
 	#logo {
 	width:100px;
 	float: left;
-  clear: none;
+  	clear: none;
 }
 }
 	
 
 /* Navigation 	
 -------------------------------------------------- */	
-
+#top_menu{
+	overflow:hidden;
+}
 .nav {
 	position: relative;
-	margin: 20px 0;
+	margin: 30px 0;
+
 
 }
 .nav ul {
@@ -201,7 +204,10 @@ text-decoration: none;
 .carousel-buttons {
 	position: absolute;
 	z-index: 1000;
-	}	
+	}
+	
+
+	
 	
 /*
 
