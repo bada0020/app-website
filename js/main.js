@@ -1,3 +1,7 @@
+
+// slide show
+
+
 var $items = $('.carousel-items img');
 
 var switchItems = function (outgoing,incoming) {
@@ -28,6 +32,8 @@ $('.next').on('click', function () {
 $('.previous').on('click', function () { var current = $items.filter('[data-state="current"]').index(); var previous = current - 1; if (previous < 0 ) { previous = $items.length - 1; } switchItems(current, previous);
 
 });
+
+
 	
 	
 	
