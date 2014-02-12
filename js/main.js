@@ -34,6 +34,8 @@ $('.previous').on('click', function () { var current = $items.filter('[data-stat
 });
 
 
+
+
 	
 	
 	
