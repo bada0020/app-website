@@ -251,6 +251,7 @@ section {
 	 margin:10px;
 	 margin:auto;
 	 padding:auto;
+	 padding-top: 30px;
 	 }
 
 
@@ -334,6 +335,26 @@ section {
 	 opacity: 1; 
 	 }
  }
+ 
+ 
+ 
+.rand-veg {
+	background-color:#fff;
+	margin:0 20em 0 20em;
+	padding:50px;
+	border-color: rgba(235, 80, 85, 0);
+	border-top-color: #eb5055;
+	border-width: 20px;
+	border-radius: 20px;
+	
+	text-align:center;
+	color: #666;
+}
+
+
+
+
+	
  
  
 
